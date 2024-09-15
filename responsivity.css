@@ -1,0 +1,30 @@
+@media (min-width: 831px) and (max-width: 1200px){
+    .services-grid{
+        grid-template-columns: 210px 210px 210px;
+    }
+}
+
+
+@media (min-width: 530px) and (max-width: 830px){
+    .services-grid{
+        grid-template-columns: 210px 210px;
+    }
+}
+
+@media(max-width: 530px){
+    .services-grid{
+        grid-template-columns: 210px;
+    }
+
+    .icons{
+        height: 23px;
+        margin: 8px;
+        cursor: pointer;
+    }
+
+    .header-logo{
+        height: 65px;
+        margin-left: 9px;
+        margin-bottom: 5px;
+    }
+}
