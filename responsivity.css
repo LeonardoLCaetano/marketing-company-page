@@ -1,3 +1,5 @@
+
+/* Grid responsivity */
 @media (min-width: 831px) and (max-width: 1200px){
     .services-grid{
         grid-template-columns: 210px 210px 210px;
@@ -16,15 +18,82 @@
         grid-template-columns: 210px;
     }
 
+}
+
+/* Header responsivity */
+@media(max-width: 400px){
     .icons{
-        height: 23px;
+        height: 20px;
         margin: 8px;
-        cursor: pointer;
     }
 
     .header-logo{
-        height: 65px;
+        height: 46px;
         margin-left: 9px;
+        margin-right: 6px;
         margin-bottom: 5px;
     }
 }
+
+@media(min-width: 400px) and (max-width: 530px){
+
+    .icons{
+        height: 28px;
+        margin: 8px;
+    }
+
+    .header-logo{
+        height: 58px;
+        margin-left: 9px;
+        margin-right: 6px;
+        margin-bottom: 5px;
+    }
+}
+
+@media(min-width: 530px) and (max-width: 630px){
+
+    .icons{
+        height: 32px;
+        margin: 8px;
+    }
+
+    .header-logo{
+        height: 62px;
+        margin-left: 9px;
+        margin-right: 6px;
+        margin-bottom: 5px;
+    }
+}
+
+/* Text size responsivity */
+
+@media(max-width: 330px){
+
+    .feedback-title{
+        font-size: 16px;
+    }
+}
+
+
+@media(min-width: 330px) and (max-width: 400px){
+    
+    .feedback-title{
+        font-size: 20px;
+    }
+}
+
+/* Submit button */
+@media(max-width: 285px){
+    .submit-btn{
+        font-size: 8px;
+    }
+}
+
+@media(min-width: 285px) and (max-width: 500px){
+    .submit-btn{
+        font-size: 12px;
+    }
+}
+
+
+

@@ -17,22 +17,6 @@ body{
     justify-content: center;
 }
 
-.whatsapp{
-    position: fixed;
-    bottom: 50px;
-    right: 70px;
-    cursor: pointer;
-}
-
-.whatsapp-icon{
-    height: 100px;
-    transition-duration: 0.5s;
-}
-
-.whatsapp-icon:hover{
-    height: 110px;
-}
-
 .services-grid{
     display: grid;
     grid-template-columns: 210px 210px 210px;
@@ -80,34 +64,6 @@ body{
 
 .large-title-formatation-midias{
     font-size: 23px;
-}
-
-.add{
-    color: red; 
-    font-size: 18px; 
-    font-weight: 700;
-    margin: 0;
-    cursor: pointer;
-    transition-duration: 0.5s;
-}
-
-.add:hover{
-    font-size: 25px;
-    padding: 0px 1px 0px 1px;
-}
-
-.add-service{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 15px;
-}
-
-.add-service-button{
-    border: 0.3px solid rgb(171, 169, 169);
-    box-shadow: 0 0 5px rgba(50, 50, 50, 0.25);
-    padding: 0.2px 6px 0.2px 6px;
-    border-radius: 8px;
 }
 
 .service-subtitle{

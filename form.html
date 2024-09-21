@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="feedback.css">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="responsivity.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" 
+    rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="left-section">
+            <div class="home-container">
+                <a href="index.html"><img class="icons" src="Images/botao-home.png"></a>
+                <div class="tooltip">Página Inicial</div>
+            </div>
+            <div><img class="header-logo" src="Images/LOGO leofd.png"></div>
+        </div>
+        <div class="right-section">
+            <div class="feedback-container">
+            <a href="form.html"><img class="icons" src="Images/pergunta-do-cliente.png"></a>
+            <div class="tooltip">Feedback</div>
+            </div>
+            <div class="fale-conosco-container">
+            <img class="icons" src="Images/telefone.png">
+            <div class="tooltip">Fale Conosco</div>
+            </div>
+            <div class="facebook-container">
+                <img class="icons" src="Images/facebook.png">
+                <div class="tooltip">Siga nossas redes!</div>
+            </div>
+            <div class="instagram-container">
+                <a><img class="icons" src="Images/instagram.png"></a>
+                <div class="tooltip">Siga nossas redes!</div>
+            </div>
+              
+        </div>
+    </header>
+
+    <div class="content">
+            <div class="feedback-form">
+                <div>
+                    <h2 class="feedback-title">Nos ajude a melhorar!</h2>
+                </div>
+                <div style="background-color: black; width: 100%; height: 0.5px; margin-bottom: 30px; margin-top: 30px;"></div>
+                <form>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+            
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+            
+                    <label for="rating">Classificação:</label>
+                    <select id="rating" name="rating" required>
+                        <option value="5">Excelente</option>
+                        <option value="4">Bom</option>
+                        <option value="3">Regular</option>
+                        <option value="2">Ruim</option>
+                        <option value="1">Péssimo</option>
+                    </select>
+            
+                    <label for="comments">Comentários:</label>
+                    <textarea id="comments" name="comments" rows="4" placeholder="Escreva aqui suas sugestões de melhoria..." required></textarea>
+            
+                    <button type="submit" onclick = "confirmaFeedback()" class="submit-btn">Enviar Feedback</button>
+                </form>
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

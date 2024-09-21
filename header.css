@@ -36,14 +36,15 @@
     cursor: pointer;
 }
 
-.fale-conosco-container .feedback-container .facebook-container .instagram-container{
+.fale-conosco-container .feedback-container .facebook-container .instagram-container .home-container{
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.feedback-container .tooltip, .fale-conosco-container .tooltip, .facebook-container .tooltip, .instagram-container .tooltip{
+.feedback-container .tooltip, .fale-conosco-container .tooltip, .facebook-container .tooltip, .instagram-container .tooltip,
+.home-container .tooltip{
     font-family: Roboto, Arial;
     position: absolute;
     background-color: gray;
@@ -62,6 +63,6 @@
 }
 
 .feedback-container:hover .tooltip, .fale-conosco-container:hover .tooltip, 
-.facebook-container:hover .tooltip, .instagram-container:hover .tooltip{
+.facebook-container:hover .tooltip, .instagram-container:hover .tooltip, .home-container:hover .tooltip{
     opacity: 1;
 }
